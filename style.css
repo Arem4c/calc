@@ -1,0 +1,56 @@
+.h1 {
+    color: rgb(41, 36, 36);
+    margin: 40px auto;
+    width: min-content;
+}
+
+.calc {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    border: 15px solid black;
+    background-color: black;
+    position: relative;
+}
+
+.btnindid {
+    grid-row: span 2;
+}
+
+.calc button {
+    font-size: 3em;
+}
+
+.row {
+    grid-column: span 6;
+    margin-bottom: 40px;
+    background-color: rgb(108, 131, 99);
+    color: rgb(41, 36, 36);
+}
+
+#result {
+    border: solid 7px tan;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 1.5rem;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+.mem {
+    position: absolute;
+    z-index: 15;
+    font-size: 17px;
+    color: rgb(41, 36, 36);
+    top: 12px;
+    left: 12px;
+}
+
+.hidden {
+    display: none;
+}
